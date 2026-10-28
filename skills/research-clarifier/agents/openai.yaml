@@ -1,0 +1,14 @@
+interface:
+  display_name: Research Clarifier
+  short_description: Clarify complex research problems before solving
+  default_prompt: Use $research-clarifier to clarify my research problem before recommending
+    a solution.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

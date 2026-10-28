@@ -1,0 +1,14 @@
+interface:
+  display_name: ARS-Codex Lite
+  short_description: Focused academic research, writing, and review workflows
+  default_prompt: Use $academic-research-suite to refine my research question and
+    build an evidence-based study plan.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

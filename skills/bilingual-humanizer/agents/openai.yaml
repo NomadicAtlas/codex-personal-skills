@@ -1,0 +1,14 @@
+interface:
+  display_name: Bilingual Humanizer
+  short_description: Humanize Chinese and English writing safely
+  default_prompt: Use $bilingual-humanizer to revise this Chinese or English text
+    while preserving its claims, citations, and intended register.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

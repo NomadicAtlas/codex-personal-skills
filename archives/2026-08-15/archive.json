@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-08-15",
+  "snapshot_timezone": "Asia/Shanghai",
+  "original_commit": "ba6807c7c9d3c34ad7089e65e0d1997d82ac81ae",
+  "original_commit_at": "2026-08-14T18:11:35Z",
+  "files": {
+    "README.md": {
+      "git_blob_sha": "c54a318f191028bf4d4413e9a53c1af3b29747ee",
+      "sha256": "1abfa20ee3f308ed6c6dbd12b0598e1ee12434832abc87edf4d9a8b8e7dce8ad"
+    },
+    "skills.json": {
+      "git_blob_sha": "4e6754c59c701609badf8aa913f39ace10e29939",
+      "sha256": "1c24583b1cdda8d69e40ee1a95b47cefffca82c5674fe784e91bdf712a48092b"
+    },
+    "codex-personal-skills-bundle.zip": {
+      "git_blob_sha": "c751acb3660009c80062bbfad25c2aa5ba37d3a3",
+      "sha256": "aa7e48ce21f5c9d2b2ea2d87f7cea09fd7f9063b0bccc8399212b8beec93050e"
+    }
+  },
+  "skill_count": 3,
+  "academic_research_suite": {
+    "edition": "full-desktop",
+    "adapter_version": "0.1.25",
+    "upstream_suite_version": "3.20.0"
+  },
+  "known_issues": [
+    "The original ARS manifest.json points version_file to VERSION, but that path is absent from the original ZIP. Original bytes are retained unchanged.",
+    "The README inside the original ZIP differs from the original repository README. Both originals are retained; this historical archive has not been repaired."
+  ]
+}

@@ -1,26 +1,567 @@
 {
-  "schema_version": 1,
-  "generated_on": "2026-08-15",
-  "skill_count": 3,
+  "schema_version": 2,
+  "generated_on": "2026-10-28",
+  "generated_at": "2026-10-28T12:08:47+08:00",
+  "timezone": "Asia/Shanghai",
+  "source_snapshot_commit": "26ca5ff629fc007dadb5f507ad1129ddede23d56",
+  "baseline_backup_commit": "ba6807c7c9d3c34ad7089e65e0d1997d82ac81ae",
+  "archive_path": "codex-personal-skills-bundle.zip",
+  "path_semantics": "Each skill path is both its repository source directory and its directory inside the current ZIP. File paths inside each skill record are relative to that skill directory.",
+  "hash_algorithm": "sha256",
+  "tree_hash_format": "SHA-256 of UTF-8 lines: <git-mode> <file-sha256>  <relative-path>\\n, sorted by relative path.",
+  "skill_count": 6,
   "skills": [
     {
       "name": "academic-research-suite",
       "path": "skills/academic-research-suite",
+      "purpose": "Current Online Edition for academic research, evidence synthesis, qualitative analysis, theory, writing and revision.",
+      "edition": "online",
       "source": "https://github.com/Imbad0202/academic-research-skills-codex",
-      "source_type": "github",
-      "version": "0.1.25"
+      "source_type": "github-adaptation",
+      "local_revision": "2026-10-19",
+      "license_files": [
+        "LICENSE"
+      ],
+      "upstream_adapter_version": "0.1.25",
+      "upstream_version_note": "Base adaptation version, not a version identifier for subsequent personal changes. The separate historical full package records upstream ARS suite 3.20.0.",
+      "file_count": 12,
+      "total_bytes": 47746,
+      "tree_sha256": "18a494b9451d6e0628bb36e82140fb222113f67ba4a524c6a438bb525c2a5267",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+          "bytes": 19584,
+          "mode": "100644"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "d7c125d33050dc3d65c4e45e91cba2a7d6eda5853df9bb39e9b3de95939dc22f",
+          "bytes": 6912,
+          "mode": "100644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "f4b557c6fed67177abaeb69356892c431e71303319a8ebd7225eb7089553aa46",
+          "bytes": 396,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "bytes": 1210,
+          "mode": "100644"
+        },
+        {
+          "path": "references/academic-writing.md",
+          "sha256": "b2bb77a254d0d4da99ddbb4c5bd18c6fc87fb32b1d19633fbaca782529f8e567",
+          "bytes": 2596,
+          "mode": "100644"
+        },
+        {
+          "path": "references/evidence-synthesis.md",
+          "sha256": "5bddbf1d1dc79dd03c974671167135d4ff3be0809921db53941ddc854c5e33af",
+          "bytes": 2525,
+          "mode": "100644"
+        },
+        {
+          "path": "references/peer-review.md",
+          "sha256": "a957c937b74d693df2f689ef19da20b29ff2fa677f941ce1ff42899463c40526",
+          "bytes": 2123,
+          "mode": "100644"
+        },
+        {
+          "path": "references/qualitative-analysis.md",
+          "sha256": "2256d7b203db0b6a3b54e4dd7d8bade81e2113c4895067521755c821cbf7f29f",
+          "bytes": 3445,
+          "mode": "100644"
+        },
+        {
+          "path": "references/question-scoping.md",
+          "sha256": "bbbdc5fa9fec076507e84eca1c0f2c3a77056fdf0119d8fdacb958c3cbcffc9b",
+          "bytes": 2138,
+          "mode": "100644"
+        },
+        {
+          "path": "references/research-design.md",
+          "sha256": "7cf15172d0c5fca4f527e3a32153fcc7102836c766028d8520ea02fa4c2f340b",
+          "bytes": 3147,
+          "mode": "100644"
+        },
+        {
+          "path": "references/revision-continuity.md",
+          "sha256": "bcf3406606eb31199a155e85383917fbbef1688d50b3a81f2ffbf5ebd32fed95",
+          "bytes": 2047,
+          "mode": "100644"
+        },
+        {
+          "path": "references/theory-contribution.md",
+          "sha256": "9e993f5dc21b31b3e576286d352e20c4225b8c92c1818e5f3d3ca9635a41d2f4",
+          "bytes": 1623,
+          "mode": "100644"
+        }
+      ]
     },
     {
       "name": "research-clarifier",
       "path": "skills/research-clarifier",
+      "purpose": "Clarify consequential research uncertainty and hand off without repeated intake.",
+      "edition": "personal",
       "source": "local",
-      "source_type": "personal"
+      "source_type": "personal",
+      "local_revision": "2026-10-19",
+      "license_files": [],
+      "file_count": 3,
+      "total_bytes": 6306,
+      "tree_sha256": "96856c34d7170d4578ce00366d4f379fe0ccf0621645cc10032d8f34f79d7603",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d42921f624b022139d6c0d2af1ab3552e17db52fc3b32e7d23170a3cb45525da",
+          "bytes": 5084,
+          "mode": "100644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "ebc4cd0bce86cdbe53feba7fe8bd8f58c83bd312de98d24dec3f0a2016eff292",
+          "bytes": 379,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+          "bytes": 843,
+          "mode": "100644"
+        }
+      ]
     },
     {
       "name": "bilingual-humanizer",
       "path": "skills/bilingual-humanizer",
+      "purpose": "Explicitly requested bilingual prose revision with evidence and citation safeguards.",
+      "edition": "personal",
       "source": "bilingual-humanizer-local.zip",
-      "source_type": "local-archive"
+      "source_type": "local-archive",
+      "local_revision": "2026-10-19",
+      "license_files": [
+        "LICENSE"
+      ],
+      "file_count": 7,
+      "total_bytes": 28541,
+      "tree_sha256": "bf2e95b5ac115560a9048a36551671581e0c9fb44ecd82cf0c9b90a4b912be18",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+          "bytes": 1066,
+          "mode": "100644"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "c9382a71d984f3a51de52b9233776343a91744b48ad7a78ddc35b501dc702ee7",
+          "bytes": 9309,
+          "mode": "100644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "c84d7c035c519cb24fabaaaa0baf8321f4ea36205b67f745339f676c915bd222",
+          "bytes": 416,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "bytes": 1210,
+          "mode": "100644"
+        },
+        {
+          "path": "references/academic-guardrails.md",
+          "sha256": "e06b61d8c842a21aa158f25752c4af945a6fa1899aba936b75f9f86f6cad083a",
+          "bytes": 4560,
+          "mode": "100644"
+        },
+        {
+          "path": "references/chinese-patterns.md",
+          "sha256": "57ee8d95b1e18933cd14c7555b2c63822b7302f57cd0fdf510a6445d2478f44f",
+          "bytes": 4820,
+          "mode": "100644"
+        },
+        {
+          "path": "references/english-patterns.md",
+          "sha256": "ce48e398fb2c2906a2b16c7c3e7f650ae19ee1dc920b3f22ab1f363b3d1b88bb",
+          "bytes": 7160,
+          "mode": "100644"
+        }
+      ]
+    },
+    {
+      "name": "scientific-visualization",
+      "path": "skills/scientific-visualization",
+      "purpose": "Scientific figures, conceptual diagrams, accessibility and destination-aware export checks.",
+      "edition": "personal-current",
+      "source": "current installed personal skill",
+      "source_type": "installed-personal",
+      "local_revision": "2026-10-19",
+      "license_files": [
+        "LICENSE.md"
+      ],
+      "file_count": 22,
+      "total_bytes": 194705,
+      "tree_sha256": "eab55fa69e35e1b17ef272bf7f28723342897f6779cf549cc33bb90d91da5d86",
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "0207337e5ae2b28c15c647054fafaddafb159be533f9723825d7a5aa2610f21d",
+          "bytes": 1069,
+          "mode": "100644"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "86e1b5425fd033bd3d687fde1be141b7b2936aeeaca743c9de3b877aaf9b15f5",
+          "bytes": 13964,
+          "mode": "100644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "89335ca3b9df2ed78e910c2b8781e82faed6e47650991f8376ceb37889c0424b",
+          "bytes": 411,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/color_palettes.py",
+          "sha256": "c95425806267d2c2e0f41bab8c64c47f05a7558906e5cc9d4b36043338976bce",
+          "bytes": 6757,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "bytes": 420,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/nature.mplstyle",
+          "sha256": "42de4708efffc1f10982f4a3cbaa0a51435c3ba32df932aa15502e3b79c140b9",
+          "bytes": 1620,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/presentation.mplstyle",
+          "sha256": "d3d3bb5a994af5c5b129069904c69147a09e6c91a887c466d39389f7d8b80192",
+          "bytes": 1461,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/publication.mplstyle",
+          "sha256": "24989cdcff039a61374813a4402144fe0ce6a6da2d19aa90a1097572f473f2c4",
+          "bytes": 1818,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/publisher_profiles.json",
+          "sha256": "58d3f5e4d8c2ebbfe9c76336227a677318a54d59d0ab1f7128d06f0daee54e36",
+          "bytes": 9864,
+          "mode": "100644"
+        },
+        {
+          "path": "references/color_palettes.md",
+          "sha256": "947d1bb2e5bcbd89f11ed2adff4ec2f2df246c39893ccf11911fa2c6e7ca39da",
+          "bytes": 9095,
+          "mode": "100644"
+        },
+        {
+          "path": "references/conceptual-figures.md",
+          "sha256": "cd6cff8c038d7b2686f0a9eaf31f8d062c1bc10db89d4255b63a67e17bc56d87",
+          "bytes": 1328,
+          "mode": "100644"
+        },
+        {
+          "path": "references/journal_requirements.md",
+          "sha256": "50ff670cae21625cc032d69b75b5a71b3358107e11fc0ca8cec0f7601b2a2558",
+          "bytes": 10413,
+          "mode": "100644"
+        },
+        {
+          "path": "references/matplotlib_examples.md",
+          "sha256": "c3ea8f3a12ae4ffae235234c106d51b5f69aed79b29d9829d2caa034a5703c53",
+          "bytes": 11055,
+          "mode": "100644"
+        },
+        {
+          "path": "references/publication_guidelines.md",
+          "sha256": "9c51fd18932fc71a050f34c9229579b9b68407e6682367484fe871c4dafd853a",
+          "bytes": 12710,
+          "mode": "100644"
+        },
+        {
+          "path": "references/sources.md",
+          "sha256": "83d38f34271a736a1be6181a0b8658bafb757714438d03ba35e7ed2952e3fd12",
+          "bytes": 8838,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/_common.py",
+          "sha256": "05c7d0f461b6a0ff5dae3e0c225af196014d6d61a9101b4fd95bc1b851ef50bf",
+          "bytes": 4352,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/export_plan.py",
+          "sha256": "cb1909c72f1ebc2befd1ec3ffc84d3cf8dbd5165747ddb056c010a931909e1fe",
+          "bytes": 16701,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/figure_export.py",
+          "sha256": "fa4df5bcff669618f7366e032f94f293a5706dd876026e2d3b8c8310ef1e8fff",
+          "bytes": 22257,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/image_metadata.py",
+          "sha256": "580899f3eba9aac5ad3ec916e6f3c26625dff18ee06357580ab9026944dc6976",
+          "bytes": 25030,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/palette_audit.py",
+          "sha256": "86ebf577c729abeb10b61173d3416ba1957668413f4429672d25bb66c21c3d76",
+          "bytes": 11655,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/style_presets.py",
+          "sha256": "00c824ae272274a99285722fe2aad429df9964ea40aa53ad41eb99ddeb3a94a4",
+          "bytes": 16124,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/style_preview.py",
+          "sha256": "310974b82ffef104eefb248f4ca0b6f8b48325b819f17b6279062aa15e1c8bbf",
+          "bytes": 7763,
+          "mode": "100644"
+        }
+      ]
+    },
+    {
+      "name": "pptx-posters",
+      "path": "skills/pptx-posters",
+      "purpose": "Editable scientific poster drafts, content review and separate strict print release.",
+      "edition": "personal-current",
+      "source": "current installed personal skill",
+      "source_type": "installed-personal",
+      "local_revision": "2026-10-19",
+      "license_files": [
+        "LICENSE.md"
+      ],
+      "file_count": 27,
+      "total_bytes": 267214,
+      "tree_sha256": "d6d24cbe00077482dbf2d45bd9dda433a295e76f47b465cd053e40ab429f76c4",
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "0207337e5ae2b28c15c647054fafaddafb159be533f9723825d7a5aa2610f21d",
+          "bytes": 1069,
+          "mode": "100644"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "34d7c07ca8969ffd8777d916fded6ee13e938659139a6e8b20b89107da260f44",
+          "bytes": 11795,
+          "mode": "100644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "c730ea44cb7b60de879083888502caded6edfe567cae109773bd2e097ddfee4f",
+          "bytes": 381,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/generation_dependencies.json",
+          "sha256": "121b69f9cb727e322ac01b59d0dc649d13a56ddcdd7d9215e33347a3092c5a96",
+          "bytes": 71,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "bytes": 420,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/poster_manifest_template.json",
+          "sha256": "7dbda3e66f5fa6e72ff0c0d9fbb8e6f5099388018c817031ceb528fa0e06d938",
+          "bytes": 4495,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/poster_quality_checklist.md",
+          "sha256": "4cf1df76b488e4b2a3d41952b8666b1180651033c18e368f6605f54c159e5e67",
+          "bytes": 8526,
+          "mode": "100644"
+        },
+        {
+          "path": "references/manifest_spec.md",
+          "sha256": "2e652264849bc4220ffbe5257397bc8c504c4569ed54233117e58b372f04c482",
+          "bytes": 9259,
+          "mode": "100644"
+        },
+        {
+          "path": "references/poster_content_guide.md",
+          "sha256": "24674953f706e60a3736ce215a91a6725e01395daaf690710794cb4a78171dce",
+          "bytes": 7790,
+          "mode": "100644"
+        },
+        {
+          "path": "references/poster_design_principles.md",
+          "sha256": "e91420e84dca03bcb3321c02a99d7f95e97c93da8bc9b882e8e8d8d1aac3e83a",
+          "bytes": 10567,
+          "mode": "100644"
+        },
+        {
+          "path": "references/poster_layout_design.md",
+          "sha256": "b5bdce59c862f415cffcd4c7eb351f528cd1caabff970a6eea1b4d0d896dfe89",
+          "bytes": 7797,
+          "mode": "100644"
+        },
+        {
+          "path": "references/pptx_security.md",
+          "sha256": "44b9a49c83368864a7b1de026a4f18e76932a981502746bfaab776dcb1dccd0c",
+          "bytes": 8914,
+          "mode": "100644"
+        },
+        {
+          "path": "references/review_workflow.md",
+          "sha256": "82495bf37a9e73fa1e816cfc5da319f1fe85efcb6a1717acc94e9cf2d42479a6",
+          "bytes": 3105,
+          "mode": "100644"
+        },
+        {
+          "path": "references/security_validation.md",
+          "sha256": "6c30077384ef6175ff45e136837bba452fa8b1ec61a17ed2907b64a7ab2e8906",
+          "bytes": 3760,
+          "mode": "100644"
+        },
+        {
+          "path": "references/source_ledger.md",
+          "sha256": "c08b25e373b0e57a46648bfd5dadcdf35e11eec31af6d8d959c5f79305598f37",
+          "bytes": 12721,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/_common.py",
+          "sha256": "cc30e6323e42b00a40afa96dad95eea20d41eebd46609f576317f05a47e239a6",
+          "bytes": 13521,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/_manifest.py",
+          "sha256": "d04fc179cd9cbe9bd6f2bc91a44bfd9e49b489c3a153c114f1b0d819d5fbd954",
+          "bytes": 46536,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/_pptx.py",
+          "sha256": "5bf1914981d85d60be14fe6f8827f01c95e0a7a833c2ed408ddd01608d6efdcb",
+          "bytes": 54982,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/check_layout.py",
+          "sha256": "a8c763f6a0476fc5d95a2e50d33f3da6c0bf57d9cb0f1469be59512f68ffee7f",
+          "bytes": 5953,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/check_palette.py",
+          "sha256": "28d5f174ef6acdec87dac38d800afc027fd817b2a019b77efd0fc43ed51e69d9",
+          "bytes": 4857,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/generate_poster.py",
+          "sha256": "6f234fc5a51f859efa0b4854064bab8a908254493d0401a5f11e0fe63a208f2f",
+          "bytes": 15235,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/generate_review_poster.py",
+          "sha256": "66aaa0fff2eb8015c265f957f5f0d4ee34eef329cae89f87583f302e3f604159",
+          "bytes": 11713,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/inspect_pptx.py",
+          "sha256": "d9a4b518c67babb1b483fdf01a2486a3e0fdf0e392e92dc2631e1990d7f1b307",
+          "bytes": 1255,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/inventory_images.py",
+          "sha256": "4c5427327c5342ea20fca04ad32d4f50c170c03551a5d4a897d410466e7929fb",
+          "bytes": 9604,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/plan_export.py",
+          "sha256": "421472290b90c54be078818b62fc2c39b256824f3d1b034a8dc07d19e445e050",
+          "bytes": 8315,
+          "mode": "100644"
+        },
+        {
+          "path": "scripts/validate_manifest.py",
+          "sha256": "b7a3c408d63a65debd93fcb5716a533683a616337a38ac685ef4daa727398f6e",
+          "bytes": 1647,
+          "mode": "100644"
+        },
+        {
+          "path": "tests/test_review_poster.py",
+          "sha256": "f73aeaba531431660aeec29700785ef61d06752dbc01667538a6e3660a7a15b2",
+          "bytes": 2926,
+          "mode": "100644"
+        }
+      ]
+    },
+    {
+      "name": "zotero-research-workflow",
+      "path": "skills/zotero-research-workflow",
+      "purpose": "Explicit Zotero research operations with separate identity and claim-support verification.",
+      "edition": "personal",
+      "source": "local",
+      "source_type": "personal",
+      "local_revision": "2026-10-19",
+      "license_files": [],
+      "file_count": 4,
+      "total_bytes": 5275,
+      "tree_sha256": "d64c9ef69fa35e4083a8caeab89f76f8fea6f2f13af9732a1bf4472fe9f2e0c0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "528200e5bf5da2f557b0502a7fa3e8ab4cfe039836fe0c952aa7d8afe32c382c",
+          "bytes": 3054,
+          "mode": "100644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "833d86ab60e75c688500bb6798a19148f8aaf2cdd4dcc6438e93789d3b04512f",
+          "bytes": 376,
+          "mode": "100644"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "0cdb7990dea3ad89ead04743eeac2dc58c119fb0b8b4a01499a21237f155bc1a",
+          "bytes": 843,
+          "mode": "100644"
+        },
+        {
+          "path": "references/claim-check.md",
+          "sha256": "74a99305add8ca2d15425e401445d022f53a774a7dc192d4baf52d1207b3efd1",
+          "bytes": 1002,
+          "mode": "100644"
+        }
+      ]
     }
-  ]
+  ],
+  "total_skill_files": 75,
+  "total_skill_bytes": 549787
 }
