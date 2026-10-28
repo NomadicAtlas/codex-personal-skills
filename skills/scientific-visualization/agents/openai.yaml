@@ -1,0 +1,14 @@
+interface:
+  display_name: Scientific Visualization
+  short_description: Create honest, publication-ready scientific figures
+  default_prompt: Use $scientific-visualization to design or audit a truthful, accessible,
+    publication-ready scientific figure.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

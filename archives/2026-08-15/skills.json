@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-08-15",
+  "skill_count": 3,
+  "skills": [
+    {
+      "name": "academic-research-suite",
+      "path": "skills/academic-research-suite",
+      "source": "https://github.com/Imbad0202/academic-research-skills-codex",
+      "source_type": "github",
+      "version": "0.1.25"
+    },
+    {
+      "name": "research-clarifier",
+      "path": "skills/research-clarifier",
+      "source": "local",
+      "source_type": "personal"
+    },
+    {
+      "name": "bilingual-humanizer",
+      "path": "skills/bilingual-humanizer",
+      "source": "bilingual-humanizer-local.zip",
+      "source_type": "local-archive"
+    }
+  ]
+}

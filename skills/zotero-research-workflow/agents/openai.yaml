@@ -1,0 +1,14 @@
+interface:
+  display_name: Zotero Research Workflow
+  short_description: Verify Zotero sources and manuscript claims
+  default_prompt: Use $zotero-research-workflow to find Zotero sources and verify
+    what they support.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

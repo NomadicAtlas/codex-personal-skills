@@ -1,0 +1,14 @@
+interface:
+  display_name: PPTX Posters
+  short_description: Draft, review, and prepare scientific PPTX posters
+  default_prompt: Use $pptx-posters to create an editable scientific poster draft
+    and identify pending checks.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
